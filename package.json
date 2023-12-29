@@ -1,0 +1,35 @@
+{
+  "name": "latest-sample-auth-firebase-keystore",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "private": true,
+  "dependencies-comments": {
+    "@arcana/auth": "1.0.8"
+  },
+  "dependencies": {
+    "@arcana/keystore": "^1.0.1-beta.2",
+    "core-js": "^3.8.3",
+    "firebase": "^9.22.1",
+    "firebaseui": "^6.0.2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "util": "^0.12.5"
+  }
+}
