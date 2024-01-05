@@ -124,8 +124,9 @@ async function main() {
   });
 
   // Initialize keystore
+  // Do not use the xar_nnn_prefix when specifying the appId
   const keystore = new KeyReconstructor({
-    appId: 'xar_live_d7c88d9b033d100e4200d21a5c4897b896e60063', // Get this from arcana dashboard
+    appId: 'd7c88d9b033d100e4200d21a5c4897b896e60063', // Get this from arcana dashboard
     network: 'mainnet',
   });
 
